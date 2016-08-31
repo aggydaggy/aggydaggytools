@@ -1,0 +1,103 @@
+.body-content {
+    
+    .row:not(.card-row) {
+        padding-bottom: 15px;
+    }
+    
+    ul {
+        list-style:none;
+        
+        li {
+            
+            &:before {    
+                font-family: 'FontAwesome';
+                content: '\f054';
+                margin:0 5px 0 -15px;
+                color: $green-text;
+                font-weight: bolder;
+            }
+            
+            a {
+                font-size: 18px;
+            }
+        }
+    }
+    
+    .main-link {
+        @include card(1);
+        font-size: 22px;
+        width: 100%;
+        display: inline-block;
+        padding: 10px;
+        border: none !important;
+        
+        &:hover {
+            background: darken($color-white, 10%) !important;
+        }
+        
+        &:active {
+            @include card(3);
+        }
+        
+        @media (max-width: 768px) {
+            margin-bottom: 10px;
+        }
+    }
+    
+    .small-link {
+        @include card(1);
+        font-size: 18px;
+        width: 100%;
+        border: none !important;
+        margin-bottom: 10px;
+        
+        &:active {
+            @include card(3);
+        }
+    }
+    
+    .main-links {
+        padding-bottom: 70px;
+    }
+    
+    .card {
+        @include card(1);
+        border-radius: 2px;
+        background: #FFFFFF;
+        
+        .primary-header {
+            border-radius: 2px 2px 0 0;
+            padding: 5px;
+            width: 100%;
+            background: $color-primary;
+            color: #FFFFFF;
+            text-align: center;
+        }
+        
+        .display-panel {
+            text-align: center;
+            
+            img {
+                max-height: 350px;
+                max-width: 100%;
+                margin-top: 15px;
+            }
+        }
+        
+        .info-panel {
+            text-align: center;
+            padding-bottom: 15px;
+            
+            h3 {
+                color: $color-primary;
+            }
+            
+            a {
+                width: 25%;
+                margin-top:15px;
+                margin-bottom: 10px;
+                font-size: 18px;
+            }
+        }
+    }
+}

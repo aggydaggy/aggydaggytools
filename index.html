@@ -1,0 +1,178 @@
+<html>
+<head>
+<title>
+>IT'S JUST A BETA
+</title>
+<link rel="stylesheet" type="text/css" href="dist/styles/normalize.css">
+<link rel="icon" type="image/png" href="dist/imgs/icon.png">
+<link rel="stylesheet" type="text/css" href="dist/styles/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<script src="https://www.gstatic.com/firebasejs/live/3.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDwCFGciAxpv2u-IYeMabf2OJ2jhipEVt8",
+    authDomain: "project-8273762406450783477.firebaseapp.com",
+    databaseURL: "https://project-8273762406450783477.firebaseio.com",
+    storageBucket: "project-8273762406450783477.appspot.com",
+  };
+  firebase.initializeApp(config);
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script src="dist/scripts/tools/tools.module.js"></script>
+<script src="dist/scripts/tools/tools.constants.js"></script>
+<script src="dist/scripts/tools/tools.dataservice.js"></script>
+<script src="dist/scripts/tools/tools.controller.js"></script>
+<link rel="stylesheet" type="text/css" href="dist/styles/default.css">
+</head>
+<body ng-app="tools" ng-controller="ToolsController as tools" ng-init='tools.initialize();' ng-cloak>
+ 
+<nav class="navbar navbar-default navbar-fixed-top aggy-nav">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#aggy-nav-links" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+        <a class="navbar-brand" href="index.html">
+            <img alt="JLMG" src="dist/imgs/icon.png">
+        </a>
+    </div>
+    <div class="container-fluid">
+        <div class="collapse navbar-collapse" id="aggy-nav-links">
+            <ul class="nav navbar-nav navbar-center">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="recap.html">Recap</a></li>
+                <li><a href="underconstruction.html">AGDG Games</a></li>
+                <li><a href="engines.html">Engines</a></li>
+                <li><a href="tools.html">Tools</a></li>
+                <li><a href="assets.html">Assets</a></li>
+                <li><a href="underconstruction.html">Tutorials</a></li>
+                <li><a href="underconstruction.html">Collabs</a></li>
+            </ul>
+            
+        </div>
+    </div>
+  </div>
+</nav>
+
+<div class="container body-content"> 
+    <div class="row">
+        <div class="alert alert-info alert-dismissible" role="alert">
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            Collab and Tutorials sections are ##Under Construction and are not available yet.  Have any feedback for the site?
+            <a href="#contact" class="alert-link">Click here to fill out the new anonymous form and let me know.</a>  
+        </div>
+        <div class="col-sm-6">
+            <a href="http://www.aggydaggy.com" class="btn btn-green main-link"><i class="fa fa-chevron-right"></i>Current Thread</a>
+        </div>
+        <div class="col-sm-6 main-links">
+            <a href="https://boards.fireden.net/vg/search/subject/agdg/" class="btn btn-green main-link"><i class="fa fa-chevron-right"></i>Archived Threads</a>
+        </div>
+        <div class="col-sm-12">
+            <h1><i class="fa fa-users"></i> Community</h1>
+            <hr>
+            <h3>Chats</h3>
+            <div class="row card-row">
+                <div class="col-sm-4">
+                    <a href="http://steamcommunity.com/groups/vgamedevcrew" class="btn btn-green small-link"><i class="fa fa-steam"></i> Steam Chat</a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="http://webchat.freenode.net/?channels=vidyadev" class="btn btn-green small-link"><i class="fa fa-comments"></i> IRC</a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="https://discord.gg/chquY2e" class="btn btn-green small-link"><i class="fa fa-comments"></i> Discord</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <h3>Demo Days</h3>
+                    <div class="card">
+                        <div class="primary-header">
+                            <h5>Next Demo Day</h5>
+                        </div>
+                        <div class="row card-row">
+                            <div class="col-sm-12 display-panel">
+                                <img src="dist/imgs/dd10.gif" />
+                            </div>
+                            <div class="col-sm-12 info-panel">
+                                <h3>{{tools.demoDays.Current.Name}}</h3>
+                                <small ng-show="tools.demoDays.Current.Date">{{tools.demoDays.Current.Date}}</small>
+                                <small ng-show="!tools.demoDays.Current.Date">Start preparing now, slacker.</small>
+                                <br>
+                                <a ng-show="tools.demoDays.Current.URL" ng-href="{{tools.demoDays.Current.URL}}" class="btn btn-blue small-link">Go</a>
+                            </div>
+                        </div>
+                    </div>
+                    <h4>Past Demo Days</h4>
+                    <ul>
+                        <li ng-repeat="demoday in tools.demoDays.DemoDays">            
+                            <a ng-href="{{demoday.URL}}">{{demoday.Name}}</a>            
+                        </li>
+                    </ul>
+                </div>
+            
+                <div class="col-sm-6">
+                    <h3>Game Jams</h3>
+                    <div class="card">
+                        <div class="primary-header">
+                            <h5>Current Game Jam</h5>
+                        </div>
+                        <div class="row card-row">
+                            <div class="col-sm-12 display-panel">
+                                <img src="dist/imgs/lewd.jpg" />
+                            </div>
+                            <div class="col-sm-12 info-panel">
+                                <h3 ng-show="tools.gameJams.Current.Date">{{tools.gameJams.Current.Name}}</h3>
+                                <h3 ng-show="!tools.gameJams.Current.Date">No Current Game Jam</h3>
+                                <h5 ng-show="tools.gameJams.Current.Note">{{tools.gameJams.Current.Note}}</h5>
+                                <small ng-show="tools.gameJams.Current.Date">{{tools.gameJams.Current.Date}}</small>
+                                <small ng-show="!tools.gameJams.Current.Date">>Wasting time on a game jam</small>
+                                <br>
+                                <a ng-show="tools.gameJams.Current.URL" ng-href="{{tools.gameJams.Current.URL}}" class="btn btn-blue small-link">Go</a>
+                            </div>
+                        </div>
+                    </div> 
+                    
+                    <h4>Past Game Jams</h4>
+                    <ul>
+                        <li ng-repeat="gamejam in tools.gameJams.GameJams">            
+                            <a ng-href="{{gamejam.URL}}">{{gamejam.Name}}</a>            
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    
+    <a id="contact"></a>
+    <div class="row">
+        <div class="col-sm-12">
+            <h1><i class="fa fa-comments"></i> Feedback / Suggestions (Contact)</h1>
+            <hr>
+            <div>
+                <p>If you want to get ahold of me and don't feel like posting in the thread, just fill this out and I'll see it.</p>
+                <small>>Please don't spam memes at me I don't want to have to install a captcha it's tedious.</small>
+            </div><br>
+            <h3 class="success" ng-if="tools.ideaMessage">{{tools.ideaMessage}}</h3>
+            <p class="error" ng-if="tools.ideaError">{{tools.ideaError}}</p>
+            <div class="placeholder-form" ng-if="tools.submitted"></div>
+            <div ng-if="!tools.submitted">
+                <label>Optional Contact Information</label><br>
+                <input type="text" class="form-control" ng-model="tools.suggestion.contact" placeholder="Optional Contact Info" /> <br>
+                <label>Feedback / Suggestion</label><br >
+                <small>{{tools.suggestion.idea.length}} / {{tools.maxChars}} Characters Remaining</small>
+                <textarea rows="5" class="form-control" ng-model="tools.suggestion.idea" placeholder="Your Suggestion"></textarea> <br>
+                <a ng-click="tools.submitIdea()" class="btn btn-blue small-link">Submit Feedback</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

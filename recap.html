@@ -1,0 +1,137 @@
+<html>
+<head>
+<title>
+JUST LIKE MAKE GAME
+</title>
+<link rel="stylesheet" type="text/css" href="dist/styles/normalize.css">
+<link rel="icon" type="image/png" href="dist/imgs/icon.png">
+<link rel="stylesheet" type="text/css" href="dist/styles/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script src="dist/scripts/recap/recap.module.js"></script>
+<script src="dist/scripts/recap/recap.constants.js"></script>
+<script src="dist/scripts/recap/recap.dataservice.js"></script>
+<script src="dist/scripts/recap/recap.controller.js"></script>
+<link rel="stylesheet" type="text/css" href="dist/styles/default.css">
+</head>
+<body ng-app="recap" ng-controller="RecapController as re" ng-init='re.initialize();' ng-cloak class="recap">
+ 
+<nav class="navbar navbar-default navbar-fixed-top aggy-nav">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#aggy-nav-links" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+        <a class="navbar-brand" href="index.html">
+            <img alt="JLMG" src="dist/imgs/icon.png">
+        </a>
+    </div>
+    <div class="container-fluid">
+        <div class="collapse navbar-collapse" id="aggy-nav-links">
+            <ul class="nav navbar-nav navbar-center">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="recap.html" class="active">Recap</a></li>
+                <li><a href="underconstruction.html">AGDG Games</a></li>
+                <li><a href="engines.html">Engines</a></li>
+                <li><a href="tools.html">Tools</a></li>
+                <li><a href="assets.html">Assets</a></li>
+                <li><a href="underconstruction.html">Tutorials</a></li>
+                <li><a href="underconstruction.html">Collabs</a></li>
+            </ul>
+            
+        </div>
+    </div>
+  </div>
+</nav>
+
+<div class="container-fluid body-content recap">
+    <div class="banner"><img src="dist/imgs/current-trans.png" /></div>
+    <h1>AGDG Recap</h1>
+    <h2>May 2016</h2>
+    <div ng-repeat="recap in re.recaps.Recaps">
+        <div class="col-lg-3 col-md-6 col-sm-6 recap-container">
+            <div class="card">
+                <div class="recap-img">
+                    <span class="helper"></span>
+                    <img ng-src="{{re.recapimgdir}}/{{recap.Images[0]}}" />
+                </div>
+                <div class="title">
+                    <h5>{{recap.GameName}}</h5>By 
+                    <span ng-repeat="devname in recap.DevNames">
+                        <span ng-if="$index > 0">, </span>
+                        {{devname}} 
+                    </span>
+                    <div ng-if="recap.Websites.length > 0" ng-repeat="site in recap.Websites">
+                        <span ng-if="site">
+                            <a ng-href="{{site}}">>{{site}}</a> 
+                        </span>
+                    </div>
+                </div>
+                <div class="synopsis">
+                    {{recap.Synopsis}}    
+                </div>
+                <div ng-if="recap.ToolsUsed.length > 0" class="tools">
+                    <span ng-repeat="tool in recap.ToolsUsed">
+                    <span ng-if="$index > 0">, </span>{{tool}}
+                    </span> </div>
+                <div class="progress-container">
+                    <div ng-repeat="progress in recap.Progress">{{progress}}</div>
+                </div>
+                </div>
+                <div class="gallery-toggle" ng-if="!re.recaps.Recaps[$index].showGallery" ng-click="re.recaps.Recaps[$index].showGallery = true">
+                    > View Gallery
+                </div>
+                <div class="gallery-toggle-hide" ng-if="re.recaps.Recaps[$index].showGallery" ng-click="re.recaps.Recaps[$index].showGallery = false">
+                    > Hide Gallery
+                </div>
+            </div>
+            
+            <div class="container-fluid" ng-if="re.recaps.Recaps[$index].showGallery">
+                <br>
+                <div class="row">
+                    <div class="col-sm-12 gallery">
+                        
+                <h2>{{re.recaps.Recaps[$index].GameName}} Gallery</h3>
+                        <h5 class="synopsis" ng-if="recap.Images.length > 0">Images</h5>
+                        <div ng-repeat="image in recap.Images" class="gallery-container">
+                            <a target="_blank" ng-href="{{re.recapimgdir}}/{{image}}"> 
+                                <img ng-src="{{re.recapimgdir}}/{{image}}" />
+                            </a>
+                        </div>
+                        <br>
+                        <h5 class="synopsis" ng-if="recap.WebMs.length > 0">WebM</h5>
+                        <div ng-repeat="image in recap.WebMs" class="video-container">
+                            <video ng-src="{{image}}" controls class="vid">
+                            </video>
+                            <br>
+                            <a target="_blank" ng-href="{{image}}" class="gallery-toggle"> 
+                                Full View
+                            </a>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div>
+        
+    </div>
+    <!--<div ng-repeat="recap in re.recaps.Recaps" class="col-lg-3 col-sm-6 recap-container">
+        <div class="card">
+        <h5 class="title">{{recap.GameName}}</h5>
+        <h5 class="devs" ng-repeat="devname in recap.DevNames">{{devname}} </h5>
+        Images: {{recap.Images.length}}, WEBMS: {{recap.WebMs.length}}
+        </div>
+    </div>-->
+</div>
+
+</body>
+</html>

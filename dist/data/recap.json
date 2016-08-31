@@ -1,0 +1,821 @@
+{
+  "Recaps": [
+    {
+      "GameName": "Knightly Terrors (working title)",
+      "DevNames": [
+        "Razmig",
+        "Theonian"
+      ],
+      "ToolsUsed": [
+        "Game Maker"
+      ],
+      "Websites": [
+        "http://theonian.tumblr.com/"
+      ],
+      "Synopsis": "You are a knight. Go forth and vanquish evil (story is WIP). Takes place in mansions, forests, chapels and dungeons. Most of the monsters will be original designs, somewhat inspired by lovecraftian horror.",
+      "Progress": [
+        "+Work on menu/UI and HUD",
+        "+New player animations",
+        "+Flying head monster completed",
+        "+Hellish background assets"
+      ],
+      "Images": [
+        "razmig1.png",
+        "razmig2.png",
+        "razmig3.gif",
+        "razmig4.png",
+        "razmig5.gif",
+        "razmig6.png"
+      ],
+      "WebMs": [
+        
+      ]
+    },
+    {
+      "GameName": "Clarent",
+      "DevNames": [
+        "Arikado"
+      ],
+      "ToolsUsed": [
+        "GameMaker: Studio",
+        "Paint.Net",
+        "Aseprite"
+      ],
+      "Websites": [
+        "http://arikado.itch.io/clarent-demo"
+      ],
+      "Synopsis": "Metroidvania",
+      "Progress": [
+        "+grappling hook",
+        "+inventory system",
+        "+new waters",
+        "+dialogue boxes",
+        "+fixed bugs",
+        "+other minor stuff"
+      ],
+      "Images": [
+        "clarent2.jpg"
+      ],
+      "WebMs": [
+        "clarent1.webm"
+      ]
+    },
+    {
+      "GameName": "Light Game",
+      "DevNames": [
+        "LightDev"
+      ],
+      "ToolsUsed": [
+        "GameMaker: Studio"
+      ],
+      "Websites": [
+        "http://lightandshadowdev.tumblr.com/"
+      ],
+      "Synopsis": "Something about lights dogs and bad dreams. Use light as a manipulable platform and destroy darkness and get to bed.",
+      "Progress": [
+        "+ Crates no longer freeze the game",
+        "+ Crates can be pushed automatically as well as picked up.",
+        "+ Controls updated again for simplicity",
+        "~ Mirrors soon(tm)"
+      ],
+      "Images": [
+        "lightdev2.gif",
+        "lightdev3.gif"
+      ],
+      "WebMs": [
+        "lightdev1.webm"
+      ]
+    },
+    {
+      "GameName": "Uplifted",
+      "DevNames": [
+        "ElevatorDev"
+      ],
+      "ToolsUsed": [
+        "Java"
+      ],
+      "Websites": [
+        "https://donpommelo.itch.io/uplifted"
+      ],
+      "Synopsis": "2-D RPG about elevators",
+      "Progress": [
+        "+Camera control for cutscene stuff",
+        "+Shopping state updated",
+        "+More quests events and battle effects"
+      ],
+      "Images": [
+        "elevator2.jpg"
+      ],
+      "WebMs": [
+        "elevator1.webm"
+      ]
+    },
+    {
+      "GameName": "Ctesiphon",
+      "DevNames": [
+        "Stomy"
+      ],
+      "ToolsUsed": [
+        "Java",
+        "LibGDX",
+        "GtkRadiant",
+        "Blender"
+      ],
+      "Websites": [
+        "http://stomygame.tumblr.com"
+      ],
+      "Synopsis": "Cyberpunk Shooter Action. An FPS inspired by the Build Engine games, Neo 80's music, and Mad Max",
+      "Progress": [
+        "+ Changed Menu Sounds",
+        "+ Planned out map progression",
+        "+ Began blocking out Level 1: Outskirts",
+        "~ Need to make the roads wider and block out all the interiors"
+      ],
+      "Images": [
+        "outskirts2.jpg"
+      ],
+      "WebMs": [
+        "outskirts1.webm"
+      ]
+    },
+    {
+      "GameName": "Space Corgi",
+      "DevNames": [
+        "Corgi Dev"
+      ],
+      "ToolsUsed": [
+        "Godot",
+        "Aseprite"
+      ],
+      "Websites": [
+        "http://www.kemonogames.com"
+      ],
+      "Synopsis": "Horizontal Shoot ‘Em Up for PC where you control a Cyborg Corgi on his journey through space while going against a vicious alien race.",
+      "Progress": [
+        "+ Early implementation of parry without visual cues",
+        "+ Decouple some of the input from player"
+      ],
+      "Images": [
+        "corgi1.png"
+      ],
+      "WebMs": [
+        "corgi2.webm"
+      ]
+    },
+    {
+      "GameName": "SpeedStorm",
+      "DevNames": [
+        "Plasma"
+      ],
+      "ToolsUsed": [
+        "C++",
+        "SFML"
+      ],
+      "Websites": [
+        "https://plasmagamesblog.wordpress.com/"
+      ],
+      "Synopsis": "Fast sidescrolling game where you build up speed and try to get through levels as fast as possible.",
+      "Progress": [
+        "+ More fog parameters",
+        "+ New Sewer level with stop/go gimmick",
+        "+ New Construction level",
+        "- Not sure how I want to design my particle system",
+        "- I feel like my game is missing something"
+      ],
+      "Images": [
+        "speedstorm2.jpg"
+      ],
+      "WebMs": [
+        "speedstorm1.webm"
+      ]
+    },
+    {
+      "GameName": "Space Dementia",
+      "DevNames": [
+        "rez"
+      ],
+      "ToolsUsed": [
+        "C++",
+        "SFML"
+      ],
+      "Websites": [
+        
+      ],
+      "Synopsis": "Metroidvania game in which you are left stranded in an unknown land, trying to discover its secret.",
+      "Progress": [
+        "+ Improved light rays",
+        "+ Lighting effects serialization",
+        "+ Water shader and lighting are now working together"
+      ],
+      "Images": [
+        "rez2.jpg"
+      ],
+      "WebMs": [
+        "rez1.webm"
+      ]
+    },
+    {
+      "GameName": "[Placeholder Title]",
+      "DevNames": [
+        "N/A"
+      ],
+      "ToolsUsed": [
+        "GM:S",
+        "GraphicsGale"
+      ],
+      "Websites": [
+        
+      ],
+      "Synopsis": "Metroidvania",
+      "Progress": [
+        "+First draft of Lightning Weapon attacks complete",
+        "+Key rebinds done"
+      ],
+      "Images": [
+        "placeholder2.jpg"
+      ],
+      "WebMs": [
+        "placeholder1.webm"
+      ]
+    },
+    {
+      "GameName": "VitoMiom",
+      "DevNames": [
+        "Deppressed Trap Dev"
+      ],
+      "ToolsUsed": [
+        "GML",
+        "FLStudio",
+        "Notepad++"
+      ],
+      "Websites": [
+        
+      ],
+      "Synopsis": "There's a ball that goes up and down, and the ball goes up, and then down, and then I post progress. No real storyline.",
+      "Progress": [
+        "+ Added rules on what can be touched: for all the thing that the player can get to only what's colored can be touched.",
+        "+ Started mapping the demo...",
+        "+ Muh ball sound effect gonna post webm when finished",
+        "= I need some other people opinions on my colors (because of some sort of colour-blindness)",
+        "- Jojo prevent me from posting progress...",
+        "- I have the feeling that all the work I do change nothing"
+      ],
+      "Images": [
+        "vito2.jpg"
+      ],
+      "WebMs": [
+        "vito1.webm"
+      ]
+    },
+    {
+      "GameName": "Placid Trip",
+      "DevNames": [
+        "PlacidTripDev"
+      ],
+      "ToolsUsed": [
+        "Unity3d",
+        "C#"
+      ],
+      "Websites": [
+        "https://omicron.itch.io/placid-trip"
+      ],
+      "Synopsis": "You got lost in Mojave desert on your journey to/from Las Vegas. And there's nothing but mescaline cacti around.",
+      "Progress": [
+        "Hell yeah Voronoi Noise!"
+      ],
+      "Images": [
+        "placid1.png"
+      ],
+      "WebMs": [
+        
+      ]
+    },
+    {
+      "GameName": "Metrognome",
+      "DevNames": [
+        "Apollo Games"
+      ],
+      "ToolsUsed": [
+        "Game Maker Studio"
+      ],
+      "Websites": [
+        "https://apollo.itch.io/"
+      ],
+      "Synopsis": "2D Adventure/Metroidvania game where you play as a gnome. With help from animal friends, a large variety of weapons and your own wits, you're able to save the world.",
+      "Progress": [
+        "+ Done some work on a fishing minigame",
+        "+ Added a poison mushroom enemy",
+        "+ Worked on animations and sprites"
+      ],
+      "Images": [
+        "metrognome2.jpg"
+      ],
+      "WebMs": [
+        "metrognome1.webm"
+      ]
+    },
+    {
+      "GameName": "Rat Ellipses",
+      "DevNames": [
+        "Koizap"
+      ],
+      "ToolsUsed": [
+        "Unity3d",
+        "Blender",
+        "Paint Tool Sai"
+      ],
+      "Websites": [
+        "http://koizap.tumblr.com"
+      ],
+      "Synopsis": "3d Platforming Adventure Shooter, inspired by PS2 era games like Jak,Ratchet and Clank and Sly Cooper.",
+      "Progress": [
+        "+Breakables now work.",
+        "+New Melee attack animation re done",
+        "+Home Level layout sketch done.",
+        "+Sketched more gun concepts",
+        "-I still cant find a way to update .blend files without wiping all my animation clip events."
+      ],
+      "Images": [
+        "elipses1.png"
+      ],
+      "WebMs": [
+        
+      ]
+    },
+    {
+      "GameName": "When It Hits the Fan",
+      "DevNames": [
+        "trueyomic"
+      ],
+      "ToolsUsed": [
+        "Java",
+        "libgdx"
+      ],
+      "Websites": [
+        "http://www.heartfeltgames.org"
+      ],
+      "Synopsis": "When It Hits the Fan is an action arcade top-down shooter.  Kill aliens, demons, robots, and zombies with various weapons like the chainsaw, shotgun, laser cannon, and more!",
+      "Progress": [
+        "* added new slime enemy",
+        "* added doors",
+        "* added electricity traps",
+        "* more bug fixes"
+      ],
+      "Images": [
+        "lab1.png",
+        "lab2.png",
+        "lab3.png"
+      ],
+      "WebMs": [
+        "wit1.webm",
+        "wit2.webm",
+        "wit3.webm",
+        "wit4.webm"
+      ]
+    },
+    {
+      "GameName": "Xen Assault",
+      "DevNames": [
+        "CyanAmazing"
+      ],
+      "ToolsUsed": [
+        "Game Maker"
+      ],
+      "Websites": [
+        "http://cyanamazing.tumblr.com/"
+      ],
+      "Synopsis": "Robot platformer inspired by MegaMan X/Zero.",
+      "Progress": [
+        "+ JUICE",
+        "+ added cool shaders"
+      ],
+      "Images": [
+        "juice4.jpg"
+      ],
+      "WebMs": [
+        "juice1.webm",
+        "juice2.webm",
+        "juice3.webm"
+      ]
+    },
+    {
+      "GameName": "You are a torpedo AI",
+      "DevNames": [
+        "boustrophedon"
+      ],
+      "ToolsUsed": [
+        "GM:S"
+      ],
+      "Websites": [
+        "http://boustrophedondev.tumblr.com/",
+        "https://boustrophedon.itch.io/you-are-a-torpedo-ai"
+      ],
+      "Synopsis": "Navigate a torpedo, avoid collisions with obstacles and destroy your target",
+      "Progress": [
+        "+Working on new levels"
+      ],
+      "Images": [
+        "torpedo2.jpg"
+      ],
+      "WebMs": [
+        "torpedo.webm"
+      ]
+    },
+    {
+      "GameName": "Brick Architect 3",
+      "DevNames": [
+        "BrickDev"
+      ],
+      "ToolsUsed": [
+        "Game Maker"
+      ],
+      "Websites": [
+        
+      ],
+      "Synopsis": "3rd installment of the popular brick survival game, early access now",
+      "Progress": [
+        "+ added bubbles"
+      ],
+      "Images": [
+        "bubble2.jpg"
+      ],
+      "WebMs": [
+        "bubble.webm"
+      ]
+    },
+    {
+      "GameName": "Pulse",
+      "DevNames": [
+        "Jetadex",
+        "Pulse dev"
+      ],
+      "ToolsUsed": [
+        "nodejs",
+        "socket.io",
+        "javascript",
+        "html5"
+      ],
+      "Websites": [
+        
+      ],
+      "Synopsis": "I built an isometric engine, so now I'm trying to make a simple prototype for an online game idea I've had for a while.",
+      "Progress": [
+        ">Made a map drawer",
+        ">Made an convenient image loader",
+        ">Found a convenient way to convert pngs to a usable array of tiles",
+        ">Outlined the basic concept and coded most of it",
+        ">Playes can drag paths for their troops (pic related)",
+        ">Set up server"
+      ],
+      "Images": [
+        "pulse1.png"
+      ],
+      "WebMs": [
+        
+      ]
+    },
+    {
+      "GameName": "SpaceBooty",
+      "DevNames": [
+        "Trepac"
+      ],
+      "ToolsUsed": [
+        "Gamemaker"
+      ],
+      "Websites": [
+        
+      ],
+      "Synopsis": "Treasure Hunter vs Space Pirate Fortress. Cavestory/Metroidvania influence",
+      "Progress": [
+        "Dialog system tweaks & test npcs",
+        "New enemy/hazard: Raging AI and electrified flooring",
+        "Sprite touchups"
+      ],
+      "Images": [
+        "spacebooty1.gif"
+      ],
+      "WebMs": [
+        
+      ]
+    },
+    {
+      "GameName": "Adventures Of Ribbert",
+      "DevNames": [
+        "diest",
+        "flobster"
+      ],
+      "ToolsUsed": [
+        "Aseprite",
+        "GameMaker"
+      ],
+      "Websites": [
+        "http://diestware.tumblr.com"
+      ],
+      "Synopsis": "ur a frog",
+      "Progress": [
+        "-3D progress again",
+        "-Proc gen progress"
+      ],
+      "Images": [
+        "froggy1.gif"
+      ],
+      "WebMs": [
+        
+      ]
+    },
+    {
+      "GameName": "Hacking game",
+      "DevNames": [
+        "vestigial"
+      ],
+      "ToolsUsed": [
+        "Unity"
+      ],
+      "Websites": [
+        "http://vestigialdevelopment.com"
+      ],
+      "Synopsis": "hacking-themed open world puzzle game",
+      "Progress": [
+        "+Cookies/sessions/saved form fields",
+        "+Mission hub based around Uplink",
+        "+Starting procedural generation",
+        "-lack of artists, designers, writers, producer, marketers starting to be a problem"
+      ],
+      "Images": [
+        "proxim2.jpg"
+      ],
+      "WebMs": [
+        "proxim1.webm"
+      ]
+    },
+    {
+      "GameName": "VirtuaWave",
+      "DevNames": [
+        "jetnetdev"
+      ],
+      "ToolsUsed": [
+        "Unity",
+        "SubstancePainter",
+        "Blender"
+      ],
+      "Websites": [
+        "http://gamedev-neoncity.tumblr.com",
+        "http://twitter.com/VirtuaWave"
+      ],
+      "Synopsis": "FAST jetski racing game",
+      "Progress": [
+        "+added a intro scene & intro theme",
+        "+skip intro button",
+        "-I have been thinking about making a hubworld with interactive NPC and whats the best way to implement, not totaly sure about it",
+        "-still havent made a proper opponent AI"
+      ],
+      "Images": [
+        "ski2.jpg"
+      ],
+      "WebMs": [
+        "ski1.webm"
+      ]
+    },
+    {
+      "GameName": "Dungeon Break [Working Title]",
+      "DevNames": [
+        "Jasozz"
+      ],
+      "ToolsUsed": [
+        "Aseprite",
+        "Game Maker: Studio"
+      ],
+      "Websites": [
+        
+      ],
+      "Synopsis": "Fight your way through multiple procedurally generated floors",
+      "Progress": [
+        "+ Added spellcasting",
+        "+ Added explosion damage",
+        "+ Pseudolighting"
+      ],
+      "Images": [
+        "pew2.jpg"
+      ],
+      "WebMs": [
+        "pew1.webm"
+      ]
+    },
+    {
+      "GameName": "SuperStock",
+      "DevNames": [
+        "Coxyworthy"
+      ],
+      "ToolsUsed": [
+        "Gamemaker:Studio"
+      ],
+      "Websites": [
+        "http://coxyworthygames.tumblr.com"
+      ],
+      "Synopsis": "Little Fella who only jumps and dashes",
+      "Progress": [
+        "Started working on sprite transitions between states"
+      ],
+      "Images": [
+        "trans1.gif"
+      ],
+      "WebMs": [
+        
+      ]
+    },
+    {
+      "GameName": "Zero Quest",
+      "DevNames": [
+        "Anonymous"
+      ],
+      "ToolsUsed": [
+        "Game Maker: Studio"
+      ],
+      "Websites": [
+        "http://zeroquest.tumblr.com"
+      ],
+      "Synopsis": "A turn-based RPG about video game characters that escape their games and live together on a ROM hosting server.",
+      "Progress": [
+        "+ Replaced Contra dude with Robot dude (as Contra dude was literally a sprite rip, and I think the Robot will be better in the long run)",
+        "+ Started work on RPG mechanics like leveling up, inventory/equipment, etc",
+        "+ Decided that microgames aren't that fun, but real time elements inside the world ARE fun (like the cannon ball shooting enemy I made), so I will be shifting my focus towards that (e.g. adding a lot more \"real time\" enemies, maybe even with a plot explanation about them being corrupted when the server is shutting down...)."
+      ],
+      "Images": [
+        "zero1.gif"
+      ],
+      "WebMs": [
+        
+      ]
+    },
+    {
+      "GameName": "Untitled",
+      "DevNames": [
+        "Anonymous"
+      ],
+      "ToolsUsed": [
+        
+      ],
+      "Websites": [
+        
+      ],
+      "Synopsis": "N/A",
+      "Progress": [
+        "+Tweens",
+        "+3D Selector",
+        "+Fur",
+        "+Optimization",
+        "+Unit now slowly looks towards cursor",
+        "+Animation for turning",
+        "+New walk animation",
+        "+Sounds for turning",
+        "+Particles for turning and walking",
+        "+Buildings now fall and produce particles when created"
+      ],
+      "Images": [
+        "tweens2.png"
+      ],
+      "WebMs": [
+        "tweens1.webm"
+      ]
+    },
+    {
+      "GameName": "Luvvie Ducks",
+      "DevNames": [
+        "Gremolin"
+      ],
+      "ToolsUsed": [
+        "Unity",
+        "Blender",
+        "Paint.Net"
+      ],
+      "Websites": [
+        "https://www.youtube.com/channel/UCSFGPhu4aNWqJDicFUuOxHg",
+        "https://play.google.com/store/apps/details?id=com.gremonation.luvvieducks"
+      ],
+      "Synopsis": "Adopt a Luvvie Duck and take care of it.",
+      "Progress": [
+        "Polishing",
+        "getting ready for some kind of demo / release."
+      ],
+      "Images": [
+        "luvvie.jpg"
+      ],
+      "WebMs": [
+        "luvvie1.webm"
+      ]
+    },
+    {
+      "GameName": "Combat ISP",
+      "DevNames": [
+        "CISP Dev"
+      ],
+      "ToolsUsed": [
+        "GameMaker: Studio",
+        "Photoshop",
+        "LMMS",
+        "Audacity"
+      ],
+      "Websites": [
+        "http://combatisp.tumblr.com/"
+      ],
+      "Synopsis": "Casual, Cooperative 2D Hero-Shooter/MOBA-Hybrid Simulator",
+      "Progress": [
+        "+ Shrimpgirl Idle animation lineart and flat color fill complete",
+        "+ Shrimpgirl Jab animation progress",
+        "+ Added the first animated pickup (Adds a crystal resource to inventory)",
+        "+ Sound Design/SFX progress for pickups",
+        "+ Music progress",
+        "-Watched Heavy Object",
+        "-Watched Anti-Magic Academy",
+        "-Watched Fate Stay Night: Unlimited Blade Works"
+      ],
+      "Images": [
+        "cisp.png"
+      ],
+      "WebMs": [
+        
+      ]
+    },
+    {
+      "GameName": "Essence Tactics",
+      "DevNames": [
+        "armoafro"
+      ],
+      "ToolsUsed": [
+        "Unity",
+        "C#"
+      ],
+      "Websites": [
+        "http://armoafro.itch.io"
+      ],
+      "Synopsis": "Fantasy themed TBS game on procgen maps with party management.",
+      "Progress": [
+        "+\"item\" system rehaul",
+        "+procgen for various terrain types",
+        "+ability to make hand crafted maps",
+        "+formalizing system to place units and structures, like castle walls, on procgen maps"
+      ],
+      "Images": [
+        "ess1.gif"
+      ],
+      "WebMs": [
+        
+      ]
+    },
+    {
+      "GameName": "Whimp the Bold",
+      "DevNames": [
+        "Anonymous"
+      ],
+      "ToolsUsed": [
+        "GameMaker: Studio",
+        "GraphicsGale"
+      ],
+      "Websites": [
+        
+      ],
+      "Synopsis": "Control your enemies! A 2D platformer adventure inspired by GBA Kirby",
+      "Progress": [
+        "+Put in slopes",
+        "+Added 2 enemies in (out of 4 created)",
+        "+got camera to smoothly track player",
+        "regardless of enemy control",
+        "+Full player controls implemented",
+        "-Have no clue where to start for creating environment tiles"
+      ],
+      "Images": [
+        "whimp2.jpg"
+      ],
+      "WebMs": [
+        "whimp1.webm"
+      ]
+    },
+    {
+      "GameName": "Project Wingman",
+      "DevNames": [
+        "RB-D2"
+      ],
+      "ToolsUsed": [
+        "UE4",
+        "Blender",
+        "Substance"
+      ],
+      "Websites": [
+        "http://rb-d2.tumblr.com"
+      ],
+      "Synopsis": "An Ace Combat wannabe.",
+      "Progress": [
+        "+started working on the hangar interface",
+        "+added some gears to the Mig31",
+        "+A bunch of stuff I don't really remember",
+        "-procrastination"
+      ],
+      "Images": [
+        "hangar2.jpg"
+      ],
+      "WebMs": [
+        "hangar1.webm"
+      ]
+    }
+  ]
+}

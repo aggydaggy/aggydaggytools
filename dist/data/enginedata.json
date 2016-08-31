@@ -1,0 +1,70 @@
+{
+  "GameEngines": [
+    {
+      "Name": "GameMaker",
+      "URL": "https://www.yoyogames.com/gamemaker",
+      "ImageName": "gms.png",
+      "Blurb": "Using a single development workflow GameMaker: Studio allows you export your game directly to Windows desktop, Mac OS X, Ubuntu, Android, iOS, Windows Phone, Windows App Store, HTML5, Tizen, Amazon FireTV, PlayStation Vita, PlayStation 3, PlayStation 4, and Xbox One."
+    },
+    {
+      "Name": "Godot",
+      "URL": "https://www.godotengine.org/",
+      "ImageName": "godot.svg",
+      "Blurb": "Godot provides a huge set of common tools, so you can just focus on making your game without reinventing the wheel.  Godot is completely free and open source under the very permissive MIT license. No strings attached, no royalties, nothing. Your game is yours, down to the last line of engine code."
+    },
+    {
+      "Name": "LOVE",
+      "URL": "https://love2d.org/",
+      "ImageName": "love.png",
+      "Blurb": "LOVE is an *awesome* framework you can use to make 2D games in Lua. It's free, open-source, and works on Windows, Mac OS X, Linux, Android and iOS."
+    },
+    {
+      "Name": "Unreal Engine 4",
+      "URL": "https://www.unrealengine.com/what-is-unreal-engine-4",
+      "ImageName": "ue4.png",
+      "Blurb": "Unreal Engine 4 is a complete suite of game development tools made by game developers, for game developers. From 2D mobile games to console blockbusters and VR, Unreal Engine 4 gives you everything you need to start, ship, grow and stand out from the crowd."
+    },
+    {
+      "Name": "Unity3D",
+      "URL": "https://unity3d.com/",
+      "ImageName": "unity.png",
+      "Blurb": "You can create any 2D or 3D game with Unity. You can make it with ease, you can make it highly-optimized and beautiful, and you can deploy it with a click to more platforms than you have fingers and toes. What’s more, you can use Unity’s integrated services to speed up your development process, optimize your game, connect with an audience, and achieve success."
+    },
+    {
+      "Name": "Monogame",
+      "URL": "http://www.monogame.net/",
+      "ImageName": "monogame.png",
+      "Blurb": "MonoGame is an Open Source implementation of the Microsoft XNA 4 Framework. Our goal is to allow XNA developers on Xbox 360, Windows & Windows Phone to port their games to the iOS, Android, Mac OS X, Linux and Windows 8/10.As well as PlayStation Vita, Xbox One and PlayStation 4."
+    },
+    {
+      "Name": "SFML",
+      "URL": "http://www.sfml-dev.org/",
+      "ImageName": "sfml.png",
+      "Blurb": "SFML provides a simple interface to the various components of your PC, to ease the development of games and multimedia applications. It is composed of five modules: system, window, graphics, audio and network."
+    },
+    {
+      "Name": "SDL 2",
+      "URL": "https://www.libsdl.org/",
+      "ImageName": "sdl.png",
+      "Blurb": "Simple DirectMedia Layer is a cross-platform development library designed to provide low level access to audio, keyboard, mouse, joystick, and graphics hardware via OpenGL and Direct3D. It is used by video playback software, emulators, and popular games including Valve's award winning catalog and many Humble Bundle games."
+    },
+    {
+      "Name": "Construct 2",
+      "URL": "https://www.scirra.com/construct2",
+      "ImageName": "cs2.png",
+      "Blurb": "Construct 2 is a powerful ground breaking HTML5 game creator designed specifically for 2D games. It allows anyone to build games — no coding required!"
+    },
+    {
+      "Name": "LibGDX",
+      "URL": "https://libgdx.badlogicgames.com/",
+      "ImageName": "libgdx.png",
+      "Blurb": "Libgdx is a Java game development framework that provides a unified API that works across all supported platforms.  The framework provides an environment for rapid prototyping and fast iterations. Instead of deploying to Android/iOS/Javascript after each code change, you can run and debug your game on the desktop, natively. Desktop JVM features like code hotswapping reduce your iteration times considerably."
+    },
+    {
+      "Name": "ncurses",
+      "URL": "https://www.gnu.org/software/ncurses/",
+      "ImageName": "ncurses.jpg",
+      "Blurb": "The ncurses (new curses) library is a free software emulation of curses in System V Release 4.0 (SVr4), and more. It uses terminfo format, supports pads and color and multiple highlights and forms characters and function-key mapping, and has all the other SVr4-curses enhancements over BSD curses. SVr4 curses is better known today as X/Open Curses. TL;DR: USE IT TO MAKE ASCII GAMES."
+    }
+  ]
+}

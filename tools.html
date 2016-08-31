@@ -1,0 +1,214 @@
+<html>
+<head>
+<title>
+JUST LIKE MAKE GAME
+</title>
+<link rel="stylesheet" type="text/css" href="dist/styles/normalize.css">
+<link rel="icon" type="image/png" href="dist/imgs/icon.png">
+<link rel="stylesheet" type="text/css" href="dist/styles/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script src="dist/scripts/tools/tools.module.js"></script>
+<script src="dist/scripts/tools/tools.constants.js"></script>
+<script src="dist/scripts/tools/tools.dataservice.js"></script>
+<script src="dist/scripts/tools/tools.controller.js"></script>
+<link rel="stylesheet" type="text/css" href="dist/styles/default.css">
+</head>
+<body ng-app="tools" ng-controller="ToolsController as tools" ng-init='tools.initialize();' ng-cloak>
+ 
+<nav class="navbar navbar-default navbar-fixed-top aggy-nav">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#aggy-nav-links" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+        <a class="navbar-brand" href="index.html">
+            <img alt="JLMG" src="dist/imgs/icon.png">
+        </a>
+    </div>
+    <div class="container-fluid">
+        <div class="collapse navbar-collapse" id="aggy-nav-links">
+            <ul class="nav navbar-nav navbar-center">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="recap.html">Recap</a></li>
+                <li><a href="underconstruction.html">AGDG Games</a></li>
+                <li><a href="engines.html">Engines</a></li>
+                <li><a href="tools.html" class="active">Tools</a></li>
+                <li><a href="assets.html">Assets</a></li>
+                <li><a href="underconstruction.html">Tutorials</a></li>
+                <li><a href="underconstruction.html">Collabs</a></li>
+            </ul>
+            
+        </div>
+    </div>
+  </div>
+</nav>
+
+<div class="container body-content"> 
+    <div class="row">
+        <div class="col-sm-6">
+            <h1><i class="fa fa-wrench"></i> Make Your Shit...</h1>
+            <hr>
+            <h3>3D Modeling</h3>
+            <p>Blender is probably the best free 3d-modeling program you're going to be able to use.  It's free as in Gentoo.  There's even a steam version, so you can keep up with all your online ERP sessions while you make progress.</p>
+            
+            <ul>
+                <li>
+                    <a href="https://www.blender.org/"> Blender </a>
+                </li>
+                <li>
+                    <a href="http://store.steampowered.com/app/365670/"> Blender on Steam</a>
+                </li>
+            </ul>
+            <p>If you're a student, 3DSMax by AutoDesk has a free student version.  It's only for non-commercial personal use, but that shouldn't be a problem for an amateur like you, right?</p>
+            <ul>
+                <li>
+                    <a href="http://www.autodesk.com/products/3ds-max/overview-dts"> 3DSMax </a>
+                </li>
+            </ul>
+            <p>Makehuman is a handy open source tool for quickly creating 3d humanoid models.  If you need something quick to prototype with this might be your best bet.</p>
+            <ul>
+                <li>
+                    <a href="http://www.makehuman.org/"> Just Like Make Human</a>
+                </li>
+            </ul>
+            
+            <h3>2D Graphics / Textures </h3>
+            <p>Inkscape is a free vector graphics program.  It's for when you don't want your game to look like an indie pixel game and you have actual artistic talent.</p>
+            <ul>
+                <li>
+                    <a href="https://inkscape.org/en/"> Inkscape </a>
+                </li>
+            </ul>
+            <p>If you're in more of a weeb mood, there's also Krita and Paint Tool Sai.  Krita is free, Paint Tool Sai is """Free""".  If you don't like anime, GIMP is a completely free poorly-laid-out photoshop clone that you can use to easily create textures for 3D models or whatever. </p>
+            <ul>
+                <li>
+                    <a href="https://krita.org/"> Krita </a>
+                </li>
+                <li>
+                    <a href="https://www.systemax.jp/en/sai/"> Paint Tool Sai</a>
+                </li>
+                <li>
+                    <a href="https://www.gimp.org/downloads/"> Bring out the GIMP</a>
+                </li>
+            </ul>
+            <p> Finally, if you really want to do pixel art there's GraphicsGale and Aseprite.  They both have their little quirks, but GraphicsGale is free to use so you'll probably want that.  Aseprite is also free through their github, but you'll have to build it yourself from the source code.  If your game is tile-based -- and it is, most likely -- you can try out Pyxel Edit as an alternative that's supposed to be pretty good. There's a free and an EARLY ACCESS paid version.  Check out the free version and then upgrade if you like it.</p>
+            <ul>
+                <li>
+                    <a href="https://graphicsgale.com/us/download.html"> GraphicsGale </a>
+                </li>
+                <li>
+                    <a href="http://www.aseprite.org/"> A$eprite</a>
+                </li>
+                <li>
+                    <a href="https://github.com/aseprite/aseprite/"> Aseprite Github </a>
+                </li>
+                <li>
+                    <a href="http://pyxeledit.com/about.php"> Pyxel Edit </a>
+                </li>
+            </ul>
+            
+            <h3>Idea Guy Links</h3>
+            <ul>
+                <li>
+                    <a href="http://www.squidi.net/three/index.php"> Three Hundred Mechanics -- Free Ideas!! </a>
+                </li>
+                <li>
+                    <a href="http://orteil.dashnet.org/gamegen"> Game Idea Generator </a>
+                </li>
+            </ul>
+            
+            
+            <h3>
+        </div>
+        
+        <div class="col-sm-6">
+            <h1><i class="fa fa-share"></i> ...And Post Progress</h1>
+            <hr>
+            <h3>WebM and Video Recording</h3>
+            <p>
+                webm files are just video files that get their sound stripped out when they're posted on 4chan. They are functionally identical to gifs, but with a much better compression ratio, which naturally leads to longer, better looking loops. Nowadays, you can just use <a href="https://github.com/theTarkus/WebMCam">WebMCam</a>, which provides a point'n'shoot interface for grabbing screencaps. If that's too easy for you, the right, old way to make webm files is to create video files using a screen capture tool, edit if them if necessary, and then convert them to webm. This is understandably a pain, but worth knowing how to do, in case you want to make a longer video to put on youtube, or are on a platform where webmcam doesn't exist.
+            </p>
+            <ul>
+                <li>
+                    <a href="https://github.com/theTarkus/WebMCam"> WebMCam </a>
+                </li>
+            </ul>
+            <p>
+                On Windows, these following three programs will get video files of your game in some format or the other. Since video encoding is actually a complex business I suggest you google around for advice. Dxtory is good for long or complex videos that would normally kill your rig, OBS can record most anything competently, and fraps is buggy shit that people still use for some reason. If you have a recent NVIDIA card, you may be able to use the built-in video encoder to record, too. Caveat Emptor.
+            </p>
+            <ul>
+                <li>
+                    <a href="https://obsproject.com/"> Open Broadcaster Software </a>
+                </li>
+                <li>
+                    <a href="http://fraps.com/"> FRAPS </a>
+                </li>
+                <li>
+                    <a href="http://exkode.com/dxtory-features-en.html"> Dxtory </a>
+                </li>
+            </ul>
+            <p>
+                For video editors, anything will do, but a common favorite for gaming is Sony Vegas. Figure it out nerd.
+            </p>
+            <ul>
+                <li>
+                    <a href="http://en.wikipedia.org/wiki/Sony_Vegas_Pro"> Figure Out Sony Vegas </a>
+                </li>
+            </ul>
+            <p>
+                Once you have the video, you need to convert into the webm format 4chan expects. WebMConverter provides a retard-friendly interface for that.
+            </p>
+            <ul>
+                <li>
+                    <a href="https://gitgud.io/nixx/WebMConverter"> WebMConverter </a>
+                </li>
+            </ul>
+            <h3>Misc Hosting</h3>
+            <p>
+                Dropbox makes sharing webpages as easy as moving the finished page into the Dropbox folder. Good for Unity webgames and HTML5 concoctions, and you can host/change your packaged games here too.
+            </p>
+            <ul>
+                <li>
+                    <a href="http://www.dropbox.com"> Dropbox </a>
+                </li>
+            </ul>
+            <p>
+                Filehosting using the pomf.se software, direct linking is allowed. Can be used for flash/love2d games, and is great for really any other game installers or files.            
+            </p>
+            <ul>
+                <li>
+                    <a href="http://1339.cf/"> 1339.cf </a>
+                </li>
+            </ul>
+            <p>
+                If you think your game is ready for the big leagues, you can start to beg for money by posting it on itch.io. Think of it like bandcamp but for shitty games nobody wants to buy. The admin is very liberal about hosting, to the point where it's basically charity to new gamedevs.    
+            </p>
+            <ul>
+                <li>
+                    <a href="http://itch.io"> itch.io </a>
+                </li>
+            </ul>
+            <p>
+                Don't try to post your shit code to 4chan directly, use a pastebin. hastebin will autodetect language for syntax highlighting, which is nice.
+            </p>
+            <ul>
+                <li>
+                    <a href="http://pastebin.com"> Pastebin </a>
+                </li>
+                <li>
+                    <a href="http://hastebin.com/"> Hastebin </a>
+                </li>
+            </ul>
+        </div>
+        
+    </div>
+</div>
+
+</body>
+</html>

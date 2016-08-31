@@ -1,0 +1,34 @@
+.engines {
+    img {
+        max-width: 250px;
+        max-height: 150px;
+    }
+    
+    .row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    .engine-item {
+        
+        h3 {
+            color: $color-primary;
+        }
+        
+        .img-display {
+            text-align: center;
+        }
+    }
+    
+    a {
+        font-size: 18px;
+    }
+
+    ul {
+        padding-left: 15px;
+    }
+    
+    @media (max-width: 768px) {
+        padding: 10px;
+    }
+}

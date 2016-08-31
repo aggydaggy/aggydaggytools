@@ -1,0 +1,50 @@
+.aggy-nav {
+    @include card(3);
+    background: $color-secondary;
+    border: none !important;
+    
+    a {
+        color: $color-white !important;
+        font-weight: lighter;
+        
+        &.active {
+            background-color: $color-secondary-light !important;
+        }
+        
+        &:hover{
+            background-color: $color-secondary-light !important;
+        }
+    }
+    
+    .icon-bar {
+        background-color: $color-white !important;
+    }
+    
+    .navbar-toggle {
+        border-radius: 0 !important;
+        border-color: $color-white !important;
+        
+        &:hover {
+            background-color: $color-white !important;
+            
+            .icon-bar {
+                background-color: black !important;
+            }
+        }
+        
+    }
+    
+    .navbar-brand {
+        padding: 9px 15px;
+        
+        img, p {
+            display: inline-block;
+            font-size: 12px;
+        }
+    }
+    
+    .navbar-collapse {
+        border: none !important;
+    }
+    
+}

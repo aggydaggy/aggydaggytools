@@ -1,0 +1,140 @@
+.recap {
+        word-wrap: break-word;
+        background: darken($color-secondary, 10%);
+    .gallery {
+        
+        border: 2px solid $green-text;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        background: $color-secondary;
+        
+        .gallery-container {
+            display: inline-block;
+            height: 250px;
+            margin: 15px;
+        }
+        
+        .video-container {
+            display: inline-block;
+            margin: 15px;
+            text-align: center;
+            padding-bottom: 15px;
+            
+            .vid {
+                max-width: 550px;
+                max-height: 550px;
+            }
+        }
+        
+        img {
+            max-width: 250px;
+            max-height: 250px;
+            cursor: pointer;
+        }
+        
+        h5 {
+            padding: 10px;
+            background: $color-secondary-light;
+            color: $color-white;
+        }
+    }
+    
+    
+    .banner {
+        max-width: 250px;
+        max-height: 250px;
+        margin: 0 auto;
+    }
+    
+    h1, h2 {
+        text-align: center;
+        padding-top: 0 !important;
+        color: $color-white;
+    }
+    
+    a.view {
+        cursor: pointer;
+        position: absolute;
+        bottom: 5px;
+        right: 5px;
+        font-size: 16px;
+        font-weight: bolder;
+    }
+    
+    .gallery-toggle {
+        margin-top: -16px;
+        background-color: darken($green-text, 5%);
+        padding: 15px;
+        text-align: center;
+        color: $color-white;
+        font-weight: bold;
+        font-size: 16px;
+        cursor: pointer;
+    }
+    
+    .gallery-toggle-hide {
+        margin-top: -16px;
+        background-color: darken($color-primary, 5%);
+        padding: 15px;
+        text-align: center;
+        color: $color-white;
+        font-weight: bold;
+        font-size: 16px;
+        cursor: pointer;
+    }
+    
+    .card {
+        @include card(2);
+        margin-bottom: 15px;
+        margin-top: 15px;
+        height: 650px;
+        background: darken($color-secondary-light, 0%) !important;
+        color: $color-white;
+        padding:5px;
+        min-width: 300px;
+        position: relative;
+
+        h5 {
+            margin-top: 0;
+        }
+        
+        .title {
+           padding: 10px;
+           text-align: center; 
+           background: $color-secondary;
+           color: $color-white;
+        }
+        
+        .synopsis {
+            padding: 10px;
+            background: $color-primary;
+            color: $color-white;
+        }
+        
+        .tools {
+            padding: 10px;
+            background: $color-accent;
+            color: $color-white;
+        }
+        
+        .progress-container {
+            padding: 10px;
+            font-size: 12px;
+        }
+        
+        .devs {
+            display: inline-block;
+        }
+        
+        .recap-img {
+            height: 250px;
+            text-align: center;
+            background: black;
+            
+            img {
+                max-height: 250px;
+                max-width: 100%;
+            }
+        }
+    }
+}

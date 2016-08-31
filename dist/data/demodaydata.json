@@ -1,0 +1,45 @@
+{
+  "Current": {
+    "URL": "https://itch.io/jam/agdg-demo-day-10",
+    "Name": "Demo Day 10",
+    "Date": "Sept. 8 - Sept. 10"
+  },
+  "DemoDays": [
+    {
+      "URL": "https://itch.io/jam/agdg-demo-day",
+      "Name": "Demo Day 1"
+    },
+    {
+      "URL": "https://itch.io/jam/agdg-demo-day-2",
+      "Name": "Demo Day 2"
+    },
+    {
+      "URL": "https://itch.io/jam/agdg-demo-day-3",
+      "Name": "Demo Day 3"
+    },
+    {
+      "URL": "https://itch.io/jam/agdg-demo-day-4",
+      "Name": "Demo Day 4"
+    },
+    {
+      "URL": "https://itch.io/jam/agdg-demo-day-5",
+      "Name": "Demo Day 5"
+    },
+    {
+      "URL": "https://itch.io/jam/agdg-demo-day-6",
+      "Name": "Demo Day 6"
+    },
+    {
+      "URL": "https://itch.io/jam/agdg-demo-day-7",
+      "Name": "Demo Day 7"
+    },
+    {
+      "URL": "https://itch.io/jam/agdg-demo-day-8",
+      "Name": "Demo Day 8"
+    },
+    {
+      "URL": "https://itch.io/jam/agdg-demo-day-9",
+      "Name": "Demo Day 9"
+    }
+  ]
+}
