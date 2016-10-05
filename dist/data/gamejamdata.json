@@ -1,9 +1,9 @@
 {
   "Current": {
-    "Name": "Lewd Jam 2016",
-    "Date": "Sept. 16 - Sept. 29",
-    "URL": "https://itch.io/jam/lewd-jam-2016",
-    "Note": "Collab Information (GOOGLE DOCS WARNING): http://tinyurl.com/jyxt9vz AND http://tinyurl.com/hnpc4m4"
+    "Name": "Halloween Jam 2016",
+    "Date": "Oct 13 - Oct 30",
+    "URL": "https://itch.io/jam/agdg-halloween-jam-2016",
+    "Note": ""
   },
   "GameJams": [
     {
@@ -37,6 +37,10 @@
     {
       "URL": "https://itch.io/jam/agdg-space-jam",
       "Name": "Space Jam"
+    },
+    {
+      "URL": "https://itch.io/jam/lewd-jam-2016",
+      "Name": "Lewd Jam 2016"
     }
   ]
 }
