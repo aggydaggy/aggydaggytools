@@ -1,8 +1,8 @@
 {
   "Current": {
-    "URL": "https://itch.io/jam/agdg-demo-day-11",
-    "Name": "Demo Day 11",
-    "Date": "Nov 8 - Nov 9"
+    "URL": "https://itch.io/jam/agdg-demo-day-12",
+    "Name": "Demo Day 12",
+    "Date": "Jan 8 - Jan 10"
   },
   "DemoDays": [
     {
@@ -44,6 +44,10 @@
     {
       "URL": "https://itch.io/jam/agdg-demo-day-10",
       "Name": "Demo Day 10"
+    },
+    {
+      "URL": "https://itch.io/jam/agdg-demo-day-11",
+      "Name": "Demo Day 11"
     }
   ]
 }

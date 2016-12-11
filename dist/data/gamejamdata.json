@@ -1,8 +1,8 @@
 {
   "Current": {
-    "Name": "Halloween Jam 2016",
-    "Date": "Oct 13 - Oct 30",
-    "URL": "https://itch.io/jam/agdg-halloween-jam-2016",
+    "Name": "",
+    "Date": "",
+    "URL": "",
     "Note": ""
   },
   "GameJams": [
@@ -41,6 +41,10 @@
     {
       "URL": "https://itch.io/jam/lewd-jam-2016",
       "Name": "Lewd Jam 2016"
+    },
+    {
+      "URL": "https://itch.io/jam/agdg-halloween-jam-2016",
+      "Name": "Halloween Jam 2016"
     }
   ]
 }
