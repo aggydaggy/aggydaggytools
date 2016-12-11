@@ -45,6 +45,10 @@
     {
       "URL": "https://itch.io/jam/agdg-halloween-jam-2016",
       "Name": "Halloween Jam 2016"
-    }
+    },
+	{
+		"URL": "itch.io/jam/agdg-dinosaur-jam",
+		"Name": "Dinosaur Jam"
+	}
   ]
 }
